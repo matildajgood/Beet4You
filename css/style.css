@@ -1,0 +1,166 @@
+html {
+
+    font-family: 'Tahoma', sans-serif;
+    background-color: #BCEE68;
+
+}
+
+h1 {
+
+    font-size: 40px;
+    color: black;
+    text-align: center;
+
+}
+
+.title{
+
+    text-align: center;
+}
+
+a {
+
+    color: rgb(171, 145, 115);
+}
+
+input {
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+    width: 50%;
+}
+
+button {
+
+    margin: 10px;
+
+}
+
+.artikel {
+
+    border: 5px solid rgb(171, 145, 115);
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.artikel-image {
+
+    width: 50%;
+}
+
+#liste-artikel {
+
+    width: 50%;
+    margin: auto;
+
+}
+
+nav {
+    text-align: right;
+}
+
+button {
+    background-color: #6E8B3D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.flex {
+
+    display: flex;
+    background-color: white;
+}
+
+.container-header {
+/* .header { */
+
+    width: 1010px;
+    background-color: white;
+    padding: 15px;
+
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+
+.body {
+    margin: 0px;
+}
+
+body section {
+    padding-top: 15vh;
+}
+
+p.einleitung {
+text-align: center;
+margin: auto;
+width: 850px;
+
+}
+
+.anmeldung {
+    text-align: center;
+}
+
+.container-header a {
+    text-decoration: none;
+}
+
+.meinArtikel {
+    width: 600px;
+    margin: auto;
+}
+
+
+input, textarea, select {
+    margin: 10px 0 33px 0;
+}
+
+/*footer {
+    display: block;
+}*/
+
+.page-footer {
+    position: relative;
+    padding-top: 2px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-description {
+    font-size: small;
+    text-align: center;
+}
+
+footer ul, nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 2px;
+    }
+
+    footer ul li a, nav ul li a {
+    font-weight: 600;
+    padding: 16px;
+}
